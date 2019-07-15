@@ -1,0 +1,25 @@
+{
+  "name": "fastify-orm",
+  "version": "0.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "clean": "rm -Rf dist/*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "fastify": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.7",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1",
+    "ts-loader": "^6.0.2",
+    "tslint": "^5.17.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.5.1"
+  }
+}
